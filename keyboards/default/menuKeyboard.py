@@ -1,9 +1,19 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
+
+boshla = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text='Users')
+        ]
+    ],
+    resize_keyboard=True
+)
+
 menu = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text='Python'),
+            KeyboardButton(text='Mahsulotlar'),
             KeyboardButton(text='Telegram bot')
         ]
     ],
